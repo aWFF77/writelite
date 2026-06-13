@@ -3,46 +3,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WriteLite - AI Grammar Checker</title>
+<title>WriteLite — AI Grammar Checker Cheaper Than Grammarly | Only $4.99/mo</title>
+<meta name="description" content="WriteLite: AI grammar checker that works on any website. Triple-space to check, Fix All to correct everything. 90% of Grammarly features at half the price. 10 free checks daily.">
+<meta name="keywords" content="grammar checker, grammarly alternative, free grammar checker, AI grammar, ESL writing tool, fix grammar">
+<link rel="canonical" href="https://awff77.github.io/writelite/">
+
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9fa; color: #2d3436; line-height:1.6; }
-  .container { max-width: 720px; margin: 0 auto; padding: 60px 20px; }
-  h1 { font-size: 36px; margin-bottom: 12px; color: #2d3436; }
-  .tagline { font-size: 20px; color: #636e72; margin-bottom: 32px; }
-  .price { font-size: 48px; font-weight: 700; color: #4ecdc4; margin: 24px 0; }
-  .price span { font-size: 18px; color: #888; font-weight: 400; }
-  .features { margin: 32px 0; }
-  .features li { padding: 8px 0; font-size: 16px; list-style: none; }
-  .features li::before { content: '✅ '; }
-  .cta { display: inline-block; padding: 14px 36px; background: #4ecdc4; color: #fff; border-radius: 8px; text-decoration: none; font-size: 18px; font-weight: 600; margin-top: 16px; }
-  footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #e0e0e0; font-size: 13px; color: #888; }
-  footer a { color: #4ecdc4; margin-right: 16px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; line-height:1.7; }
+  .container { max-width: 800px; margin:0 auto; padding:0 20px; }
+
+  /* Hero */
+  header { background: linear-gradient(135deg, #2d3436, #636e72); color:#fff; padding:80px 0 60px; text-align:center; }
+  header h1 { font-size:42px; margin-bottom:12px; }
+  header p { font-size:20px; opacity:0.9; max-width:600px; margin:0 auto 24px; }
+  .price-hero { font-size:52px; font-weight:700; color:#4ecdc4; }
+  .price-hero span { font-size:18px; color:#bbb; font-weight:400; }
+  .btn { display:inline-block; padding:14px 36px; border-radius:8px; font-size:17px; font-weight:600; text-decoration:none; cursor:pointer; border:none; }
+  .btn-primary { background:#4ecdc4; color:#fff; margin-right:12px; }
+  .btn-primary:hover { background:#45b7aa; }
+  .btn-outline { background:transparent; color:#fff; border:2px solid #fff; }
+  .btn-outline:hover { background:rgba(255,255,255,0.1); }
+
+  /* Sections */
+  section { padding:60px 0; }
+  section.alt { background:#f8f9fa; }
+  h2 { font-size:32px; margin-bottom:16px; text-align:center; }
+  h3 { font-size:20px; margin-bottom:8px; }
+
+  /* How it works */
+  .steps { display:flex; gap:24px; margin-top:32px; flex-wrap:wrap; }
+  .step { flex:1; min-width:180px; text-align:center; padding:20px; background:#fff; border-radius:10px; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+  .step .num { width:40px; height:40px; background:#4ecdc4; color:#fff; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:20px; font-weight:700; margin-bottom:12px; }
+
+  /* Comparison table */
+  table { width:100%; border-collapse:collapse; margin-top:24px; background:#fff; border-radius:10px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+  th { background:#2d3436; color:#fff; padding:14px; text-align:left; }
+  td { padding:12px 14px; border-bottom:1px solid #eee; }
+  tr:last-child td { border-bottom:none; }
+  .check { color:#27ae60; font-weight:700; }
+  .cross { color:#e74c3c; }
+  .highlight { background:#f0fffc; }
+
+  /* Pricing cards */
+  .pricing-cards { display:flex; gap:24px; margin-top:32px; flex-wrap:wrap; }
+  .card { flex:1; min-width:220px; padding:32px 24px; border:2px solid #e0e0e0; border-radius:12px; text-align:center; }
+  .card.featured { border-color:#4ecdc4; background:#f0fffc; transform:scale(1.03); }
+  .card .price { font-size:40px; font-weight:700; color:#4ecdc4; }
+  .card .period { color:#888; font-size:14px; }
+
+  /* CTA */
+  .cta-section { background:linear-gradient(135deg,#4ecdc4,#45b7aa); color:#fff; text-align:center; padding:60px 0; }
+  .cta-section h2 { color:#fff; }
+  .cta-section .btn { background:#fff; color:#4ecdc4; margin-top:16px; }
+
+  /* Footer */
+  footer { background:#1a1a2e; color:#888; padding:30px 0; font-size:13px; }
+  footer a { color:#4ecdc4; margin:0 10px; text-decoration:none; }
+  footer a:hover { text-decoration:underline; }
+
+  @media(max-width:600px) {
+    header h1 { font-size:28px; }
+    .price-hero { font-size:36px; }
+    .steps { flex-direction:column; }
+  }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>✍️ WriteLite</h1>
-  <p class="tagline">AI Grammar Checker — Cheaper than Grammarly, Zero Annoying Popups</p>
 
-  <ul class="features">
-    <li>Check grammar on any website — Gmail, Outlook, Slack, LinkedIn, Twitter</li>
-    <li>Triple-space to trigger. Red underlines mark errors. Click "Fix All" to correct everything.</li>
-    <li>Privacy-first — your text is never stored or logged</li>
-    <li>Works with DeepSeek AI — fast, accurate, affordable</li>
-  </ul>
+<!-- Hero -->
+<header>
+  <div class="container">
+    <h1>✍️ WriteLite — AI Grammar Checker</h1>
+    <p>The simplest grammar checker on the internet. Triple-space to check any text. Works everywhere. Costs less than your morning coffee.</p>
+    <div class="price-hero">$4.99 <span>/ month</span></div>
+    <p style="margin-top:8px;opacity:0.8;">Free: 10 checks/day — no account needed</p>
+    <a href="install/" class="btn btn-primary" style="margin-top:20px;">Install Free →</a>
+    <a href="#pricing" class="btn btn-outline" style="margin-top:20px;">See Pricing</a>
+  </div>
+</header>
 
-  <div class="price">$4.99 <span>/ month</span></div>
-  <p>or $39.99/year ($3.33/month — save 33%)</p>
+<!-- How it works -->
+<section>
+  <div class="container">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>Type anywhere</h3>
+        <p>Gmail, Outlook, Slack, LinkedIn — any text input on any website.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>Triple-space</h3>
+        <p>Press the spacebar 3 times. Errors get red wavy underlines instantly.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>Fix All</h3>
+        <p>One click corrects every error. Done.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <a href="#" class="cta">Install from Edge Add-ons</a>
+<!-- Comparison Table -->
+<section class="alt">
+  <div class="container">
+    <h2>WriteLite vs Grammarly</h2>
+    <table>
+      <tr><th>Feature</th><th>WriteLite</th><th>Grammarly</th></tr>
+      <tr><td>Monthly Price</td><td class="check highlight"><strong>$4.99</strong></td><td>$12 – $30</td></tr>
+      <tr><td>Free Tier</td><td class="check">10 checks/day</td><td class="cross">Very limited</td></tr>
+      <tr><td>Works On</td><td class="check">All websites</td><td>Browser + desktop app</td></tr>
+      <tr><td>Fix All</td><td class="check">One click</td><td class="cross">One-by-one</td></tr>
+      <tr><td>Popups</td><td class="check highlight">Zero — quiet mode by default</td><td class="cross">Frequent interruptions</td></tr>
+      <tr><td>Memory Usage</td><td class="check">Lightweight</td><td class="cross">Heavy (~12MB+)</td></tr>
+      <tr><td>Annual Price</td><td class="check highlight"><strong>$39.99</strong></td><td>$144+</td></tr>
+    </table>
+    <p style="text-align:center;margin-top:16px;"><a href="vs/grammarly/">Full comparison →</a></p>
+  </div>
+</section>
 
-  <footer>
-    <a href="terms.html">Terms of Service</a>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="refund.html">Refund Policy</a>
-    <p>© 2026 WriteLite. hi@writelite.app</p>
-  </footer>
-</div>
+<!-- Pricing -->
+<section id="pricing">
+  <div class="container">
+    <h2>Simple Pricing</h2>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Free</h3>
+        <div class="price">$0</div>
+        <div class="period">forever</div>
+        <p>10 grammar checks/day<br>All websites<br>Fix All included</p>
+        <a href="install/" class="btn btn-outline" style="border-color:#4ecdc4;color:#4ecdc4;margin-top:12px;">Get Started</a>
+      </div>
+      <div class="card featured">
+        <h3>Pro Monthly</h3>
+        <div class="price">$4.99</div>
+        <div class="period">per month</div>
+        <p>Unlimited checks<br>All websites<br>Priority support</p>
+        <a href="install/" class="btn btn-primary" style="margin-top:12px;">Install Free</a>
+      </div>
+      <div class="card">
+        <h3>Pro Annual</h3>
+        <div class="price">$39.99</div>
+        <div class="period">per year — save 33%</div>
+        <p>Everything in Pro<br>$3.33/month<br>Best value</p>
+        <a href="install/" class="btn btn-outline" style="border-color:#4ecdc4;color:#4ecdc4;margin-top:12px;">Install Free</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to write better English?</h2>
+    <p style="font-size:18px;opacity:0.9;">10 free checks every day. No account required. Works on any website.</p>
+    <a href="install/" class="btn">Install from Edge Store →</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container" style="text-align:center;">
+    <a href="vs/grammarly/">WriteLite vs Grammarly</a>
+    <a href="best-grammar-checker/">Best Grammar Checkers 2026</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="refund.html">Refunds</a>
+    <a href="install/">Install</a>
+    <p style="margin-top:12px;">© 2026 WriteLite. hi@writelite.app</p>
+  </div>
+</footer>
+
 </body>
 </html>
